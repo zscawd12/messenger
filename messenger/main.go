@@ -2,8 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/messenger/socket"
 )
 
 func main() {
-	fmt.Print("Create Messenger Project!!");
+	fmt.Println("socket start!!");
+
+	socket.SocketConnect();
 }
